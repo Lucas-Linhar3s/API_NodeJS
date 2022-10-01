@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.23.2"
+  },
+  "name": "api_nodejs",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/shared/router/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-Linhar3s/API_NodeJS.git"
+  },
+  "author": "Lucas-Linhares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lucas-Linhar3s/API_NodeJS/issues"
+  },
+  "homepage": "https://github.com/Lucas-Linhar3s/API_NodeJS#readme"
+}
